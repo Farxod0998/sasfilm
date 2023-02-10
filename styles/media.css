@@ -1,0 +1,231 @@
+@media (max-width:1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+  .main__info-line{
+    display: none;
+  }
+  .main__info-item {
+    display: none;
+  }
+  .main__info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__claim-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__claim-left {
+    margin-bottom: 30px;
+  }
+  .main__work-image2 {
+    display: none;
+  }
+  .main__work-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .main__work-image1 {
+    bottom: -62px;
+  }
+  .main__work-info {
+    margin-top: 90px;
+  }
+  
+  .main__hub-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__hub-images {
+    display: none;
+  }
+  .main__hub-item > img:last-child {
+    display: none;
+  }
+  .main__hub-right {
+    margin-top: 50px;
+  }
+  .main__team-carts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 150px;
+  }
+}
+  
+  
+
+
+@media (max-width:992px) {
+  .container {
+    max-width: 960px !important;
+  }
+
+  /* btn yoqish uchun yozildi */
+  .header__navbar-burger {
+    display: block;
+    margin-right: 35px;
+  }
+
+  /*--------------------------*/
+
+  .header__navbar-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: #00000078;
+    backdrop-filter: blur(8px);
+    left: -100%;
+    width: 30%;
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+  }
+
+  .header__navbar-list>li {
+    width: 100%;
+  }
+
+  .header__navbar-link {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding: 15px 0;
+    transition: 300ms;
+  }
+
+  .header__navbar-link:hover {
+    background: var(--dark);
+    color: var(--red);
+  }
+
+  /* menu chiqishi uchun sozlamalar */
+
+  .header__navbar-burger:focus+.header__navbar-list {
+    left: 0;
+  }
+  .main__comm-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__comm-right {
+    margin-top: 50px;
+  }
+  .main__team-carts {
+    padding: 100px;
+  }
+
+  
+}
+@media (max-width:854px) {
+  .main__team-carts {
+    padding: 0;
+  }
+  
+}
+
+@media (max-width:768px) {
+  .container {
+    max-width: 720px !important;
+  }
+  .main__team-carts {
+    padding: 0;
+  }
+  .main__hub {
+    width: 100%;
+  }
+  .main__work-image1 {
+    display: none;
+  }
+  .main__work-imageBlock {
+    display: none;
+  }
+  .main__work-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
+  .main__hub-item > img:first-child {
+    display: none;
+  }
+  .main__hub-item {
+    display: none;
+  }
+  .main__comm-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__opshin-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width:576px) {
+  .container {
+    max-width: 540px !important;
+  }
+
+  .header__navbar-list {
+    width: 100%;
+  }
+  .main__work-info {
+    gap: 80px;
+  }
+  .main__comm-config {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-large {
+    margin-top: 30px;
+  }
+  .main__info-title {
+    max-width: 400px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .main__claim-title {
+    max-width: 400px;
+    font-size: 40px;
+  }
+  .main__work-title {
+    font-size: 40px;
+    max-width: 400px;
+  }
+  .main__hub-title {
+    max-width: 402px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width:480px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .main__work-info {
+    gap: 35px;
+  }
+}
